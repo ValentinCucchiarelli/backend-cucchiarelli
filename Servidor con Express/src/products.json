@@ -1,0 +1,44 @@
+{
+    "products": [
+      {
+        "name": "Banana",
+        "id": "1"
+      },
+      {
+        "name": "Manzana",
+        "id": "2"
+      },
+      {
+        "name": "Pera",
+        "id": "3"
+      },
+      {
+        "name": "Uva",
+        "id": "4"
+      },
+      {
+        "name": "Pomelo",
+        "id": "5"
+      },
+      {
+        "name": "Mandarina",
+        "id": "6"
+      },
+      {
+        "name": "Naranja",
+        "id": "7"
+      },
+      {
+        "name": "Sandia",
+        "id": "8"
+      },
+      {
+        "name": "Durazno",
+        "id": "9"
+      },
+      {
+        "name": "Frutilla",
+        "id": "10"
+      }
+    ]
+  }
