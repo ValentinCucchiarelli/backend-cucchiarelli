@@ -5,7 +5,7 @@ class ProductManager {
         this.path = path;
     }
 
-    addProduct = async(setTitle, setDescription, setPrice, setThumbnail, setCode, setStock) => { // FUNCIONA
+    addProduct = async(setTitle, setDescription, setPrice, setThumbnail, setCode, setStock) => {
         const product = {
             title: setTitle,
             description: setDescription,
@@ -31,7 +31,7 @@ class ProductManager {
         }
 
         if (valid) {
-            if (fs.existsSync(`${this.path}dataBase.json`)) { // Si el archivo existe, se lee y añade el dato
+            if (fs.existsSync(`${this.path}dataBase.json`)) {
                 let objects = await JSON.parse(fs.readFileSync(`${this.path}dataBase.json`, "utf-8"));
                 let lastProduct = await objects.pop()
                 objects.push(lastProduct);
@@ -41,7 +41,7 @@ class ProductManager {
     
                 objects = JSON.stringify(objects);
                 fs.writeFileSync(`${this.path}dataBase.json`, objects);
-            } else { // Si no existe, se crea con el producto directamente
+            } else {
                 console.log("No se encontró el archivo, por lo que se ha creado uno nuevo");
                 product.id = 0;
                 let objects = [product];

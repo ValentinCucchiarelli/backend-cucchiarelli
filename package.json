@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinCucchiarelli/backend-cucchiarelli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValentinCucchiarelli/backend-cucchiarelli/issues"
+  },
+  "homepage": "https://github.com/ValentinCucchiarelli/backend-cucchiarelli#readme",
+  "dependencies": {
+    "express-handlebars": "^6.0.7",
+    "exrpess": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
